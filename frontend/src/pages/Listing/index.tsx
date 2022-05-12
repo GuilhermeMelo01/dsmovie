@@ -1,5 +1,4 @@
 import MovieCard from "components/MovieCard";
-import MovieScore from "components/MovieScore";
 import Pagination from "components/pagination";
 
 function Listing() {
@@ -12,12 +11,6 @@ function Listing() {
                     <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                         <MovieCard />
                     </div>  
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div> 
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div> 
                     <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
                         <MovieCard />
                     </div> 
